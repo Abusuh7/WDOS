@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 621.39 459.31" version="1.1">
+  <g id="layer1" transform="translate(-98.574 -311.53)">
+    <g id="g3615" stroke="#000" stroke-width="1px">
+      <path id="path2830" d="m165 561.29c-12.1-26.79-20.12-55.31-29.45-83.17-12.85-38.38-28.24-76.33-35.975-116.11-4.1206-21.184 17.981-35.537 37.132-37.47 26.908-2.7166 53.275-11.073 80.33-12.452 26.887-1.3712 44.381 23.285 55.443 44.647 24.537 47.382 54.898 92.575 75.281 141.35 4.076 9.7533 9.9627 13.631 15.202 20.815 8.7653 12.02 23.739 14.59 36.519 19.717 39.397 15.804 79.615 32.135 119.8 43.747 6.2171 1.7963 21.314-12.958 21.642-2.7882 0.37043 11.464 8.2518 13.118 16.615 16.588 50.658 21.024 101.98 40.836 152.12 62.878 9.4783 4.1674 14.183 18.579 4.3559 24.021-35.261 19.527-70.41 40.725-107.64 55.693-24.051 9.6702-51.305 2.3758-75.67-6.4133-68.65-24.78-137.72-49.07-205.22-76.64-47.55-19.42-94.24-41.9-139.41-66.14-10.36-5.56-16.23-17.58-21.07-28.29z"/>
+      <path id="path2832" d="m184.64 588.26c-1.6071 0.0595-3.2143 0.11905-4.8214 0.17857-1.7042 17.112-3.8067 34.203-5.159 51.336-0.64051 8.1148 8.2524 11.062 14.982 8.6845 23.359-8.2542 46.785-16.323 70.177-24.484l8.5714 4.2857c-25.536 9.2262-53.189 20.731-79.107 28.482-11.219 3.3553-22.586-3.314-21.931-16.924 1.3581-18.674 3.4297-37.469 4.0743-56.022 0.057-1.6404-1.4412-2.9331-0.91825-4.6817 0.58156-1.9448 0.73121-4.0217 1.0968-6.0325 4.6429 5.2381 9.2857 10.476 13.929 15.714l-0.89285-0.53571z"/>
+      <path id="path2834" d="m174.11 606.47 32.679-11.429 6.0714 5.1786-40.714 14.821 1.9643-8.5714z"/>
+      <path id="path2836" d="m335.71 658.61c1.5439 2.3149 2.9635 4.7056 5.7578 5.6893 3.1848 1.1212 4.8883 4.0179 5.9004 7.3464 7.2031 23.69 14.987 47.522 24.26 70.538 6.8276 16.946 22.828 33.049 40.344 26.777 32.918-13.053 64.279-29.625 96.416-44.458-3.2143-1.6667-6.4286-3.3333-9.6429-5-28.294 12.818-56.263 26.43-84.861 38.508-21.215 8.9607-30.981-11.26-36.896-28.61-7.3946-21.691-14.781-43.384-22.172-65.077-6.369-1.9048-12.738-3.8095-19.107-5.7143z"/>
+      <path id="path2838" d="m363.04 695.93 38.036-13.75 9.6429 4.8214-44.464 17.679-3.2143-8.75z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Beach chair silhouette</dc:title>
+        <dc:date>2010-06-08T07:46:10</dc:date>
+        <dc:description>A silhouette of a beach chair.</dc:description>
+        <dc:source>http://openclipart.org/detail/65041/beach-chair-silhouette-by-laobc-65041</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>laobc</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>beach</rdf:li>
+            <rdf:li>chair</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>silhouette</rdf:li>
+            <rdf:li>summer</rdf:li>
+            <rdf:li>summer2010</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
