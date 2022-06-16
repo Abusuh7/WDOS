@@ -1,3 +1,4 @@
+/*================ COMMON STYLE ===================*/
 * body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -235,4 +236,628 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: #ff7b00;
+}
+
+
+
+/*================== HOME STYLE ========================*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+video {
+  width: 100%;
+  height: 30%;
+  cursor: pointer;
+}
+
+
+.history{
+  text-align: left;
+}
+
+.culture{
+  text-align: left;
+}
+
+.fig1 {
+  width:100%;
+  height: auto;
+  }
+
+ .greeting {
+   width: 100%;
+   height: auto;
+ } 
+
+ .faiths {
+   width: 100%;
+   height: auto;
+ }
+
+ @media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .greeting {
+width: 60%;
+height: 50%;
+  }
+} 
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .fig1 {
+width: 60%;
+height: 50%;
+  }
+} 
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .faiths {
+width: 60%;
+height: 50%;
+  }
+} 
+
+/* Media for the economy */
+@media screen and (max-width: 560px) {
+  .column {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .eco {
+    height: 200px;
+  }
+}
+
+.eco:hover {
+  animation-name: ecopictures;
+  -webkit-animation-name: ecopictures;
+  transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  transition: 1s;
+}
+
+
+
+/*=================== ACTIVITIES STYLE ==================*/
+
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif; margin:0}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Media for the economy */
+@media screen and (max-width: 560px) {
+  .column {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .activities {
+    height: 200px;
+  }
+}
+
+.activities:hover {
+  animation-name: ecopictures;
+  -webkit-animation-name: ecopictures;
+  transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  transition: 1s;
+}
+
+.whalewatchpic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .whalewatchpic {
+width: 60%;
+height: 50%;
+  }
+}
+
+.hikingpic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .hikingpic {
+width: 60%;
+height: 50%;
+  }
+}
+
+.divingpic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .divingpic {
+width: 60%;
+height: 50%;
+  }
+}
+
+#link a {
+display: flex;
+justify-content: center;
+  margin: 20px;
+  color: black;
+  padding: 10px;
+  background-color:rgb(177, 224, 196);
+  border-radius: 20px;
+  border: 3px solid black;
+  text-decoration: none;
+}
+
+#link p {
+  text-align: center;
+}
+
+.click {
+  color: crimson;
+}
+
+
+/*==================== WILDLIFE STYLE =========================*/
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif; margin:0}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Media for the economy */
+@media screen and (max-width: 560px) {
+  .column {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .wild {
+    height: 200px;
+  }
+}
+
+.wild:hover {
+  animation-name: ecopictures;
+  -webkit-animation-name: ecopictures;
+  transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  transition: 1s;
+}
+
+.yalapic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .yalapic {
+width: 50%;
+height: 400px;
+  }
+}
+
+.singarajapic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .singarajapic {
+width: 50%;
+height: 400px;
+  }
+}
+
+.udawalawepic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .udawalawepic {
+width: 50%;
+height: 400px;
+  }
+}
+
+.mirissapic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .mirissapic {
+width: 50%;
+height: 400px;
+  }
+}
+
+.marinepic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .marinepic {
+width: 50%;
+height: 400px;
+  }
+}
+
+.minneriyapic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1000px) and (max-width: 1280px)
+{  
+  .minneriyapic {
+width: 50%;
+height: 400px;
+  }
+}
+
+table {
+  overflow: scroll;
+  height: 50%;
+  overflow-y: scroll;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+table ul {
+  list-style-type: none;
+}
+
+table td {
+  text-align: center;
+}
+
+table li {
+  text-align: left;
+}
+
+/* Maps */
+.yaladiv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+
+.sinarajadiv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+.udawalawediv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+.mirissadiv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+.marinediv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+.minneriyadiv iframe {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+@media screen and (max-width: 999px) {
+  .yaladiv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+    display: flex;
+  
+  }
+
+  .sinarajadiv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+  }
+
+  .udawalawediv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+  }
+
+  .mirissadiv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+  }
+
+  .marinediv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+  }
+
+  .minneriyadiv iframe {
+    width: 100%;
+    height: 350px;
+    float: none;
+  }
+  
+}
+
+
+/*================== BEACHES STYLE ===================*/
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif; margin:0}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+/* Media for the economy */
+@media screen and (max-width: 560px) {
+  .column {
+    float: none;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .beach {
+    height: 200px;
+  }
+}
+
+.beach:hover {
+  animation-name: ecopictures;
+  -webkit-animation-name: ecopictures;
+  transform: scale(1.2);
+  -webkit-transform:scale(1.2);
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  transition: 1s;
+}
+
+  .nilavalipic {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px)
+  {  
+    .nilavalipic {
+  width: 60%;
+  height: 50%;
+    }
+  }
+
+  .arugambaypic {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px)
+{  
+  .arugambaypic {
+width: 60%;
+height: 50%;
+  }
+}
+
+.unawatunapic {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{  
+.unawatunapic {
+width: 60%;
+height: 50%;
+}
+}
+
+
+/*====================== DONATE STYLE =====================*/
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  background-color: lightgrey;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column h2 {
+  background-color: darkslategray;
+  padding: 10px;
+}
+
+.column ul {
+  background-color: aliceblue;
+  color: black;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.column li {
+  text-decoration: none;
+}
+
+.colour1 {
+  color: rgb(255, 86, 24);
+}
+
+.colour2 {
+  color: goldenrod;
+}
+
+.colour3 {
+  color: silver;
+}
+
+.column h3 {
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+#amount {
+  text-shadow: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+/* When device is small */
+@media screen and (max-width: 850px) {
+  .column {
+      background-color: lightgrey;
+      float: none;
+      width: 100%;
+      padding: 5px;
+      margin-top: 30px;
+      text-align: center;
+    }
 }
