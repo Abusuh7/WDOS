@@ -489,7 +489,7 @@ display: table;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .yalapic {
 width: 50%;
@@ -502,7 +502,7 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .singarajapic {
 width: 50%;
@@ -515,7 +515,7 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .udawalawepic {
 width: 50%;
@@ -528,7 +528,7 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .mirissapic {
 width: 50%;
@@ -541,7 +541,7 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .marinepic {
 width: 50%;
@@ -554,7 +554,7 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 999px) and (max-width: 1280px)
+@media (min-width: 1000px) and (max-width: 1280px)
 {  
   .minneriyapic {
 width: 50%;
