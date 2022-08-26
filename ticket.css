@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family: '';
+    src: url('6ba89d439311e87b18f6096c1b2a8263.woff2') format('woff2'),
+        url('6ba89d439311e87b18f6096c1b2a8263.woff') format('woff'),
+        url('6ba89d439311e87b18f6096c1b2a8263.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* Remove Defaults */
+*{
+    box-sizing: border-box;
+}
+.opacity{
+    opacity: 0.8;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+.bold{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* colors */
+.orange{
+    color: blue !important;
+}
+
+.red{
+    color: rgba(156,28,30,255);
+    font-weight: 500;
+}
+
+.btn{
+    display: inline-block;
+    padding: 2% 5%;
+    background-color: blue;
+    font-size: 1.2vw;
+    color: white;
+    
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  /* Container holding the image and the text */
+.container1{
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+
+/*NAV*/
+.header {
+    overflow: hidden;
+    background: darkslategrey;
+    padding: 20px 20px;
+  }
+  
+  .header-right a {
+    display: flex;
+    float: left;
+    color: black;
+    background-color:#ddd;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px; 
+    line-height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
+
+  /*This is the navigation bar code in the ipad view view*/
+  @media screen and (min-width: 768px) and (max-width: 900px) {
+.header a {
+  padding: 7px;
+}
+  }
+  
+  .header a.logo {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .header-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-right a.active {
+    background-color: darkgrey;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+
+ /* Normmal size icons of the navigation bar*/
+ .header-right a:nth-of-type(1) {
+    background-image: url(images/home.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    margin: 0px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(2) {
+    background-image: url(images/Wildlife.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(3) {
+    background-image: url(images/activities.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(4) {
+    background-image: url(images/beaches\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(5) {
+    background-image: url(images/heritage\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(6) {
+    background-image: url(images/Temple.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    .header-right a:nth-of-type(7) {
+    background-image: url(images/grocery-15.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    background-blend-mode: overlay;
+    }
+    
+    /*Normmal size icons of the navigation bar in the mobile view*/
+    @media screen and (max-width: 540px) {
+      .header a {
+        float: none;
+        display: block;
+        text-align: center;
+        line-height: 20px;
+      }
+      
+      .header-right {
+        float: none;
+      }
+    
+      .homelogo {
+          width: 100%;
+          height: 120px;
+      }
+    
+      .header-right a:nth-of-type(1) {
+        background-image: url(images/home.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+      .header-right a:nth-of-type(2) {
+        background-image: url(images/Wildlife.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+      .header-right a:nth-of-type(3) {
+        background-image: url(images/activities.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+      .header-right a:nth-of-type(4) {
+        background-image: url(images/beaches\ \(2\).svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+      .header-right a:nth-of-type(5) {
+        background-image: url(images/heritage\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+      .header-right a:nth-of-type(6) {
+        background-image: url(images/Temple.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+    
+      .header-right a:nth-of-type(7) {
+        background-image: url(images/grocery-15.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 30px;
+        background-blend-mode: normal;
+      }
+      
+    }
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-content h3{
+    font-size: 3vw;
+}
+.header-content h1{
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 9vw;
+}
+
+
+
+
+@media (max-width:800px) {
+
+    .nav-logo a{
+        font-size: 6vw;
+        top: 0;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .nav-ul li{
+        font-size: 2.5vw;
+    }
+   .links a{
+        font-size: 2.5vw;
+    }
+    .links li{
+        margin: 4px 0;
+    }
+    .dropdown{
+        padding: 0;
+        font-size: 5vw;
+    }
+    .ham-menu{
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding-top: 20px;
+    }
+
+    /* header-content(mobile) */
+    .header-content h3{
+        font-size: 5vw;
+    }
+    .header-content h1{
+        font-size: 13vw;
+    }
+
+    
+    .btn{
+        font-size: 2.5vw;
+    }
+
+    .remove{
+        display: none;
+    }
+
+}
+
+.activities-heading{
+    font-size: 3vw;
+    padding-left: 10px;
+}
+
+header{
+    background: url('https://static01.nyt.com/images/2019/02/03/travel/03frugal-srilanka01/merlin_148552275_74c0d250-949c-46e0-b8a1-e6d499e992cf-superJumbo.jpg') !important;
+    background-position: center -200px !important;
+ 
+}
+
+
+.activities-introduction{
+    font-size: 1.2vw;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    padding-left: 10px;
+}
+
+
+.section-1, .section-2, .section-3, .heritage-locations{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.content-wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-image{
+    justify-self: end;
+}
+
+.content-image img{
+    height: 50vw;
+}
+
+
+.content-text{
+    align-self: center;
+}
+
+.content-text div{
+    padding: 20px;
+}
+
+.content-text div h1{
+    font-size: 3vw;
+}
+
+.content-text div p{
+    font-size: 1.2vw;
+}
+
+.section-2 .content-text ul{
+    list-style-type: disc;
+    font-size: 1.2vw;
+}
+
+.section-3 .content-text ol{
+    font-size: 1.2vw;
+}
+
+.heritage-locations{
+    padding-top: 50px;
+}
+.card-wrapper{
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+
+.card{
+    display: inline-block;
+    margin-bottom: 20px;
+    max-width: 25vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card img{
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.card-content{
+    padding:30px 10px;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+@media (max-width:800px){
+    .content-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .content-image{
+        justify-self: center;
+    }
+    .content-image img{
+        height: 75vw;
+    }
+    .content-text div h1{
+        font-size: 7vw;
+    }
+    
+    .content-text div p{
+        font-size: 2.8vw;
+    }
+    .section-2 .content-text ul{
+        font-size: 2.8vw;
+    }
+    .section-2 .content-text{
+        grid-row-start: 2;
+
+    }
+    .section-3 .content-text ol{
+        font-size: 2.8vw;
+    }
+
+    .activities-heading{
+        font-size: 7vw;
+    }
+    
+    
+    .activities-introduction{
+        font-size: 2.8vw;
+    }
+
+    .card-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        max-width: 35vw;
+        min-width: 175px;
+    }
+
+    .card img{
+        width: 35vw;
+        min-width: 175px;
+    }
+
+    .card-content{
+        font-size: 2.8vw;
+    }
+    
+}
+
+
+
+
+        .small {
+            font-size: 14px;
+        }
+
+        .ticket-form {
+            max-width: 500px;
+            margin: 100px auto;
+            padding: 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .order-list {
+            display: flex;
+            padding: 0;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .order-list-overall {
+            display: flex;
+            padding: 0;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .formstyle {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 1fr;
+
+        }
+
+        .formstyle div:nth-child(4) {
+            margin-bottom: 50px;
+        }
+
+        input {
+            width: 100%;
+            background-color: unset;
+            opacity: 1;
+            border: 1px black solid;
+            height: 100%;
+        }
+
+        input:last-of-type {
+            height: auto;
+        }
+
+        input::placeholder {
+            color: #ffffff;
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        select,
+        option {
+            background-color: transparent;
+            height: 100%;
+        }
+
+        select option {
+            margin: 40px;
+            background: transparent;
+            color: black;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+            border-radius: unset;
+        }
+
+        .formstyle div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: space-between;
+            margin-bottom: 20px;
+
+        }
+
+        .formstyle label {
+            padding: 5px 0;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid blue;
+  }
+  
+  .btn:hover {
+    background-color: blue;
+    color: white;
+  }
+
+        .ticket-heading {
+            padding-bottom: 20px;
+        }
+
+        @media (max-width:500px) {
+            .formstyle div {
+                grid-template-columns: 1fr;
+            }
+
+            .formstyle label,
+            option {
+                text-align: center;
+            }
+
+            .order-list {
+                flex-direction: column;
+            }
+
+            .order-list-overall {
+                flex-direction: column;
+            }
+
+        }

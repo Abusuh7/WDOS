@@ -440,6 +440,22 @@ justify-content: center;
   text-align: center;
 }
 
+#link1 a {
+  display: flex;
+  justify-content: center;
+    margin: 20px;
+    color: white;
+    padding: 10px;
+    background-color:rgb(31, 80, 113);
+    border-radius: 20px;
+    border: 3px solid black;
+    text-decoration: none;
+}
+
+#link1 p {
+  text-align: center;
+}
+
 .click {
   color: crimson;
 }
@@ -457,98 +473,6 @@ justify-content: center;
   margin: auto;
   display: flex;
   flex-flow: column wrap;
-}
-
-
-/*Responsive Form*/
-@media screen and (max-width: 700px){
-  #ticketbooking{
-    width: 100%;
-    height: auto;
-  }
-}
-
-#ticketbooking legend{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
-}
-
-
-#ticketbooking h1{
-  text-align: center;
-  color: white;
-  background-color: #003366;
-  padding: 25px;
-  margin-block: 0px;
-  text-shadow: 2px 2px black;
-}
-
-
-/*Choice of ticket styling*/
-.passes{ 
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
-}
-
-.passes select{
-  padding: 4px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-
-
-/*Number Count Style*/
-.count{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
-  display: flex;
-  justify-content: center;
-}
-
-.count p{
-  width: auto;
-
-}
-
-.count input{
-  width: auto;
-  border-radius: 10px;
-  padding: 4px;
-
-}
-
-/*Choice of duration*/
-.duration{
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
-}
-
-
-/*Optional Choice*/
-.optional{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  font-family:'Times New Roman', Times, serif;
-  font-size: 19px;
-}
-
-/*Submit Button*/
-.btn p{
-  width: 150px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-
-.btn button{
-  font-size: 15px;
-  width: 150px;
 }
 
 

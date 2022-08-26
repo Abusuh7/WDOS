@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <meta name="description" content="Home page">
+        <title>Tickets</title>
+        <link rel="stylesheet" href="ticket.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+    <!-- Mobile-full-screen-nav-bar -->
+    <header>
+        <div class="container">
+            <header>
+                <div class="header">
+                  <a class="logoclick" href="index.html"><img src="images/Main logo.webp" alt="home logo" class="homelogo" width="150px" height="80px"></a>
+                    <div class="header-right">
+                      <a  href="index.html">Home</a>
+                      <a class="active" href="activities.html" target="_self">Activities</a>
+                      <a href="wildlife.html" target="_self">Wildlife</a>
+                      <a href="beaches.html" target="_self">Beaches</a>
+                      <a href="heritage1.html" target="_self">Sigiriya</a>
+                      <a href="heritage2.html" target="_self">Kandy</a>
+                      <a href="donate.html" target="_self">Shop</a>
+                    </div>
+                  </div>
+               </header>
+                      <main>
+
+    </header>
+    <div class="ticket-form">
+        <h1 class="ticket-heading"><span class="orange">Ticket</span> Booking</h1>
+        <form action="javascript:void(0)" onchange="updateInfo()" class="formstyle">
+            <div>
+                <label for="pass">Select Pass:</label>
+                <select name="pass" id="pass">
+                    <option value="-">Select Pass</option>
+                    <option value="Foreign Adult Pass">Foreign Adult Pass</option>
+                    <option value="Foreign Child Pass">Foreign Child Pass</option>
+                    <option value="Local Adult Pass">Local Adult Pass</option>
+                    <option value="Local Child Pass">Local Child Pass</option>
+                    <option value="Annual Pass-Local">Annual Pass-Local</option>
+                    <option value="Annual Pass-Foreign">Annual Pass-Foreign</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="number">Quantity Required:</label>
+                <input type="number" id="num">
+            </div>
+
+            <div>
+                <label for="pass">Duration:</label>
+                <select name="duration" id="duration">
+                    <option value="-">Select Duration</option>
+                    <option value="3 Hours">3 Hours</option>
+                    <option value="1/2 Day">1/2 Day</option>
+                    <option value="Full Day">Full Day</option>
+                    <option value="2 Days">2 Days</option>
+                </select>
+            </div>
+            <div>
+
+                <label for="foodtoken">Food Token</label>
+                <input type="checkbox" id="foodtoken" value="foodtoken">
+            </div>
+
+
+            <div class="buttons">
+                <button class="btn" onclick="addOrder()">Add to order</button>
+                <button class="btn" onclick="placeOrder()">Place order</button>
+                <button class="btn" onclick="addFavourite()">Add to Favorites</button>
+                <button class="btn" onclick="orderFavourite()">Order Favorites</button>
+                <button class="btn" onclick="checkLoyalty()">Check Loyalty</button>
+            </div>
+            <p class="small">*Note: For children under age 3, entrance is free.</p>
+        </form>
+
+        <h1><span class="orange">Current</span> Order:</h1>
+        <ul class="order-list">
+            <li id="displaypass">-</li>
+            <li id="displayquantity">-</li>
+            <li id="displayduration">- </li>
+            <li id="displayfoodtoken">-</li>
+            <li id="displaycost">0</li>
+        </ul>
+
+        <h1><span class="orange">Overall</span> Order:</h1>
+        <div class="overall-order">
+            <div class="overall-order-list">
+
+            </div>
+            <div class="total bold">
+                <ul class="order-list">
+                    <li>Total</li>
+                    <li id="total">0</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="ticket.js"></script>
+
+
+
+
+</body>
+
+</html>

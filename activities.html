@@ -176,104 +176,13 @@
 
                         <!--Java Script Part-->
 
-                        <form id="ticketbooking">
-<h1>Ticket Booking</h1>
-                          <!-- Chioce of ticket --> 
-                         <fieldset>
-                          <legend>Choice Of Ticket</legend> 
-                          <div class="passes" >
-                          <p>
-                            <label for="passes">Pass Type</label>
-                            <select id="passes" name="type" required>
-                              <option value="localadult" selected>Local Adult Pass</option>
-                              <option value="localchild">Local Child Pass</option> 
-                              <option value="foriegnadult" >Foreigner Adult Pass</option> 
-                              <option value="foreignchild">Foreigner Child Pass</option>
-                              <option value="annualloacal">Annual local Pass</option> 
-                              <option value="annualforeign">Annual Foreign Pass</option> 
-                            </select> 
-                          </p>
-                        </div>
-                         </fieldset>
-
-                          <!-- Choice number of adults and children --> 
-                          <fieldset id="count">
-                            <legend>Number Of ticket</legend> 
-                            <div class="count">
-                            <p>
-                              <label for="num">No Tickets: </label>
-                              <input type="number" name="num" id="num" min="1" value="1" required> 
-                            </p>
-                          </div>
-                          </fieldset>
-
-
-                           <!-- Chioce of duration --> 
-                         <fieldset>
-                          <legend>Choice Of Duration</legend> 
-                          <div class="duration">
-                          <p>
-                            <input type="radio" id="3hours" name="duration" value="3hours" checked>
-                            <label for="3hours">3 Hrs</label> 
-                          </p>
-                        
-                          <p>
-                            <input type="radio" id="halfday" name="duration" value="halfday"> 
-                            <label for="halfday">12 Hrs</label>
-                          </p> 
-                        
-                          <p>
-                            <input type="radio" id="fullday" name="duration" value="fullday">
-                            <label for="fullday">24 Hrs</label> 
-                          </p>
-
-                          <p>
-                            <input type="radio" id="twoday" name="duration" value="twoday">
-                            <label for="twoday">48 Hrs</label> 
-                          </p>
-                        </div>
-                        </fieldset>
-                         
-                         
-                        <!-- optional choice --> 
-                        <fieldset>
-                          <legend>Additional Options</legend>
-                          <div class="optional"> 
-                          <p>
-                            <label for="num">Food Token: </label>
-                            <input type="checkbox" name="num" id="Food" min="0" value="0" > 
-                          </p>
-                        </div>
-
-
-                      
-                        </fieldset>
-
-
+                        <div id="link1">
                           
+                          <h4><p class="click"><b>CLICK ON THE BELLOW LINK TO BOOK TICKETS</b></p></h4>
+                          <a href="ticket.html" target="_blank"> >>BOOK TICKETS<< </a>
+                        </div>
                          
-                         <!-- Current Order --> 
-                         <fieldset>
-                           <legend>Current Order</legend>
-                           <p id="outputcost">0.00LKR</p> 
-                         </fieldset>
-                         
-                         <fieldset>
-                          <legend>Overall Order</legend>
-                          <p id="outputoverall">0.00LKR</p> 
-                        </fieldset>
-                         
-                         <!-- add to order -->
-                         <div class="btn">
-                         <p><button type="submit" id="add">Add To Order</button></p>
-                         
-                        <!-- add to order -->
-                          <p><button type="submit" id="place">Place Order </button></p>
-                         </div>
-                          
-                         </form>
-                         
-                         
+                             
 </main>
 
                         <footer>
@@ -320,6 +229,6 @@ Available at: https://www.cahm.lk/culture-of-sri-
           -->
         </footer>
       </div>
-      <script src="main.js"></script>              
+      <script src="ticket.js"></script>              
     </body>
 </html>
