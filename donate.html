@@ -36,63 +36,107 @@
     </header>
 
     <main>
-        <div class="container">
-            <img src="images/donate.webp" alt="Main" class="image" style="width:100%">
-            <div class="middle">
-              <div class="text">Donations</div>
+
+          <div class="container2">
+
+            <div class="card-container">
+        
+                <div class="front">
+                    
+                    <div class="card-number-box">DONATIONS</div>
+                    
+                </div>
+        
+                
+        
             </div>
+            
+            <form action="get">
+                <div>
+              <div class="inputBox">
+                <span>Name</span>
+                <input id="cardname" type="text" class="card-number-input">
+            </div>
+            
+            <div class="inputBox">
+              <span>Address</span>
+              <input id="cardadd" type="text" class="card-number-input" >
           </div>
 
+                <div class="inputBox">
+                    <span>Card Number</span>
+                    <input id="cardnum" type="number" maxlength="16" min="0000000000000000" max="9999999999999999"   class="card-number-input" >
+                </div>
+                
+                <div class="inputBox">
+                    <span>Card Holder</span>
+                    <input id="cardholder" type="text" class="card-holder-input" >
+                </div>
+                <div class="inputBox">
+                  <span>Amount</span>
+                  <select name="" id="amountbtn" class="amount-input" >
+                      <option value="amount" selected disabled>Amount</option>
+                      <option value="100">Rs100</option>
+                      <option value="250">Rs250</option>
+                      <option value="500">Rs500</option>
+                      <option value="1000">Rs1000</option>
+                      <option value="2500">Rs2500</option>
+                      <option value="5000">Rs5000</option>
+                      <option value="10000">Rs10000</option>
+                      
+                  </select>
+              </div>
+                <div class="flexbox">
+                    <div class="inputBox">
+                        <span>Expiration mm</span>
+                        <select  name="" id="datebtn" class="month-input" >
+                            <option value="month" selected disabled>Month</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <span>Expiration yy</span>
+                        <select name="" id="yearbtn" class="year-input" >
+                            <option value="year" selected disabled>Year</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                    </div>
 
-
-          <div class="row">
-
-            <div class="column">
-              <h2 class="colour1">Platinum Package</h2>
-              <img src="images/poor.webp" alt="Platinum" width="100%" height="300px">
-              <h3><b>PER YEAR</b></h3>
-              <ul>
-                <p><b>This Package Includes,</b></p>
-                <li>Basic Need</li>
-                <li>Shelter</li>
-                <li>Children Education</li>
-                <li>Job</li>
-                <li>Wildlife Care</li>
-              </ul>
-              <div id="amount">$500 Onwards</div>
-            </div>
-
-            <div class="column">
-              <h2 class="colour2">Golden Package</h2>
-              <img src="images/cihldren down.webp" alt="golden" width="100%" height="300px">
-              <h3><b>PER MONTH</b></h3>
-              <ul>
-                <p><b>This Package Includes,</b></p>
-                <li>Basic Need</li>
-                <li>Shelter</li>
-                <li>Children Education</li>
-                <li>Job</li>
-                <li>Wildlife Care</li>
-              </ul>
-              <div id="amount">$100 Onwards</div>
-            </div>
-
-            <div class="column">
-              <h2 class="colour3">Silver Package</h2>
-              <img src="images/hand wash.webp" alt="Silver" width="100%" height="300px">
-              <h3><b>PER WEEK</b></h3>
-              <ul>
-                <p><b>This Package Includes,</b></p>
-                <li>Basic Need</li>
-                <li>Shelter</li>
-                <li>Children Education</li>
-                <li>Job</li>
-                <li>Wildlife Care</li>
-              </ul>
-              <div id="amount">$50 Onwards</div>
-            </div>
-
-          </div>
+                    
+                  
+                  <!--
+                  
+                  -->
+                    <div class="inputBox">
+                        <span>cvv</span>
+                        <input id="cvvbtn" type="password" maxlength="3"  max="999" class="cvv-input" >
+                    </div>
+                  </div>
+                <button type="button" class="submit-btn" onclick="subbtn()" >Submit</button>
+              
+            </form>
+        
+        </div>
     </main>
 
     <footer>
@@ -141,6 +185,6 @@ Available at: https://www.cahm.lk/culture-of-sri-
           -->
     </footer>
    </div> 
-    
+   <script src="donation.js"> </script>
 </body>
 </html>

@@ -1,2 +1,0 @@
-# WDOS
-tourist

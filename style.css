@@ -13,23 +13,23 @@
 background: linen;
 }
 
+/*The styling for the logo on the header*/
 .logoclick {
     padding: 0;
     margin: 0;
-    background-image: url("images/wooden\ heaher\ design.webp");
+    background-image: darkslategrey;
+    border-radius: 20px;
+}
+
+/*Styling for the img tag*/
+.homelogo {
+  border-radius: 20px;
 }
 
 
 .heading {
   text-align: center;
 }
-
-footer {
-  background: darkslategrey;
-  padding: 0.5em;
-  text-align: center;
-}
-
 
 main {
     padding: 1em;
@@ -41,24 +41,26 @@ main {
    /*Navigaion bar*/
    .header {
     overflow: hidden;
-    background: url("images/wooden\ heaher\ design.webp");
+    background: darkslategrey;
     padding: 20px 20px;
   }
   
-  .header a {
+  .header-right a {
     display: flex;
     float: left;
     color: black;
-    background-color: rgb(199, 222, 233);
+    background-color:#ddd;
     text-align: center;
-    padding: 16px;
+    padding: 15px;
     text-decoration: none;
     font-size: 24px; 
-    line-height: 30px;
+    line-height: 40px;
     border-radius: 10px;
     border: 1px solid black;
+    margin: auto;
   }
 
+  /*This is the navigation bar code in the ipad view view*/
   @media screen and (min-width: 768px) and (max-width: 900px) {
 .header a {
   padding: 7px;
@@ -70,13 +72,13 @@ main {
     font-weight: bold;
   }
   
-  .header a:hover {
+  .header-right a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  .header a.active {
-    background-color: dodgerblue;
+  .header-right a.active {
+    background-color: darkgrey;
     color: white;
   }
   
@@ -84,11 +86,8 @@ main {
     float: right;
   }
   
-  .homelogo {
-      border-radius: 25px;
-  }
 
- /* Normmal size icons */
+ /* Normmal size icons of the navigation bar*/
  .header-right a:nth-of-type(1) {
     background-image: url(images/home.svg);
     background-repeat: no-repeat;
@@ -146,6 +145,7 @@ main {
     background-blend-mode: overlay;
     }
     
+    /*Normmal size icons of the navigation bar in the mobile view*/
     @media screen and (max-width: 540px) {
       .header a {
         float: none;
@@ -167,7 +167,7 @@ main {
         background-image: url(images/home.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
@@ -175,7 +175,7 @@ main {
         background-image: url(images/Wildlife.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
@@ -183,7 +183,7 @@ main {
         background-image: url(images/activities.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
@@ -191,7 +191,7 @@ main {
         background-image: url(images/beaches\ \(2\).svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
@@ -199,7 +199,7 @@ main {
         background-image: url(images/heritage\ 1.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
@@ -207,7 +207,7 @@ main {
         background-image: url(images/Temple.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
     
@@ -215,13 +215,19 @@ main {
         background-image: url(images/grocery-15.svg);
         background-repeat: no-repeat;
         background-position: left;
-        background-size: 45px;
+        background-size: 30px;
         background-blend-mode: normal;
       }
       
     }
   
-  footer ul {
+footer {
+      background: darkslategrey;
+      padding: 0.5em;
+      text-align: center;
+}
+
+footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -250,7 +256,7 @@ footer a:hover {
 .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 0px;
 }
 
 /* Clear floats after image containers */
@@ -267,54 +273,50 @@ video {
 }
 
 
-.history{
+.history h2{
   text-align: left;
 }
 
-.culture{
+.culture h2{
   text-align: left;
 }
 
 .fig1 {
-  width:100%;
+  width:250px;
   height: auto;
   }
 
  .greeting {
-   width: 100%;
+   width: 250px;
    height: auto;
  } 
 
  .faiths {
-   width: 100%;
+   width: 250px;
    height: auto;
  }
 
+
+ /*When device size is too big the image becomes smaller*/
  @media (min-width: 1025px) and (max-width: 1280px)
 {  
   .greeting {
 width: 60%;
 height: 50%;
   }
-} 
 
-@media (min-width: 1025px) and (max-width: 1280px)
-{  
   .fig1 {
-width: 60%;
-height: 50%;
-  }
-} 
+    width: 60%;
+    height: 50%;
+      }
 
-@media (min-width: 1025px) and (max-width: 1280px)
-{  
   .faiths {
-width: 60%;
-height: 50%;
-  }
+    width: 60%;
+    height: 50%;
+      }
 } 
 
-/* Media for the economy */
+/* Economy animation image view in mobile view*/
 @media screen and (max-width: 560px) {
   .column {
     float: none;
@@ -359,7 +361,7 @@ clear: both;
 display: table;
 }
 
-/* Media for the economy */
+/* Activities image animation in mobile view */
 @media screen and (max-width: 560px) {
   .column {
     float: none;
@@ -382,30 +384,32 @@ display: table;
   transition: 1s;
 }
 
-.whalewatchpic {
-  width: 100%;
-  height: auto;
-}
 
-@media (min-width: 1025px) and (max-width: 1280px)
+
+/*Image size when the screen is big*/
+@media (min-width: 900px) and (max-width: 1280px)
 {  
   .whalewatchpic {
 width: 60%;
 height: 50%;
   }
-}
 
 .hikingpic {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  height: 50%;
+}  
+ 
+.divingpic {
+  width: 60%;
+  height: 50%;
+    }
+  
 }
 
-@media (min-width: 1025px) and (max-width: 1280px)
-{  
-  .hikingpic {
-width: 60%;
-height: 50%;
-  }
+/*Normal desktop view*/
+.whalewatchpic {
+  width: 100%;
+  height: auto;
 }
 
 .divingpic {
@@ -413,14 +417,13 @@ height: 50%;
   height: auto;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px)
-{  
-  .divingpic {
-width: 60%;
-height: 50%;
-  }
-}
+.hikingpic {
+  width: 100%;
+  height: auto;
+}  
 
+
+/*Links to heritage locations*/
 #link a {
 display: flex;
 justify-content: center;
@@ -442,6 +445,114 @@ justify-content: center;
 }
 
 
+
+/*FORMS STYLES*/
+/*Ticket booking Styles*/
+
+#ticketbooking{
+  background-color: cornsilk;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+/*Responsive Form*/
+@media screen and (max-width: 700px){
+  #ticketbooking{
+    width: 100%;
+    height: auto;
+  }
+}
+
+#ticketbooking legend{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+
+#ticketbooking h1{
+  text-align: center;
+  color: white;
+  background-color: #003366;
+  padding: 25px;
+  margin-block: 0px;
+  text-shadow: 2px 2px black;
+}
+
+
+/*Choice of ticket styling*/
+.passes{ 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+.passes select{
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+
+/*Number Count Style*/
+.count{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+}
+
+.count p{
+  width: auto;
+
+}
+
+.count input{
+  width: auto;
+  border-radius: 10px;
+  padding: 4px;
+
+}
+
+/*Choice of duration*/
+.duration{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+
+/*Optional Choice*/
+.optional{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+/*Submit Button*/
+.btn p{
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.btn button{
+  font-size: 15px;
+  width: 150px;
+}
+
+
+
 /*==================== WILDLIFE STYLE =========================*/
 
 * {box-sizing: border-box}
@@ -461,7 +572,7 @@ clear: both;
 display: table;
 }
 
-/* Media for the economy */
+/* Wildlife animation images in mobile view */
 @media screen and (max-width: 560px) {
   .column {
     float: none;
@@ -474,6 +585,7 @@ display: table;
   }
 }
 
+/*Animation*/
 .wild:hover {
   animation-name: ecopictures;
   -webkit-animation-name: ecopictures;
@@ -484,17 +596,10 @@ display: table;
   transition: 1s;
 }
 
+/*Wildlife images desktop view*/
 .yalapic {
   width: 100%;
   height: auto;
-}
-
-@media (min-width: 1000px) and (max-width: 1280px)
-{  
-  .yalapic {
-width: 50%;
-height: 400px;
-  }
 }
 
 .singarajapic {
@@ -502,25 +607,9 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 1000px) and (max-width: 1280px)
-{  
-  .singarajapic {
-width: 50%;
-height: 400px;
-  }
-}
-
 .udawalawepic {
   width: 100%;
   height: auto;
-}
-
-@media (min-width: 1000px) and (max-width: 1280px)
-{  
-  .udawalawepic {
-width: 50%;
-height: 400px;
-  }
 }
 
 .mirissapic {
@@ -528,25 +617,9 @@ height: 400px;
   height: auto;
 }
 
-@media (min-width: 1000px) and (max-width: 1280px)
-{  
-  .mirissapic {
-width: 50%;
-height: 400px;
-  }
-}
-
 .marinepic {
   width: 100%;
   height: auto;
-}
-
-@media (min-width: 1000px) and (max-width: 1280px)
-{  
-  .marinepic {
-width: 50%;
-height: 400px;
-  }
 }
 
 .minneriyapic {
@@ -554,14 +627,43 @@ height: 400px;
   height: auto;
 }
 
+
+/*wildlife images in mobile view*/
 @media (min-width: 1000px) and (max-width: 1280px)
 {  
-  .minneriyapic {
-width: 50%;
-height: 400px;
-  }
+  .yalapic {
+      width: 50%;
+      height: 400px;
+    }
+  
+    .singarajapic {
+      width: 50%;
+      height: 400px;
+    }
+  
+    .udawalawepic {
+      width: 50%;
+      height: 400px;
+    }
+  
+    .mirissapic {
+      width: 50%;
+      height: 400px;
+    }
+  
+    .marinepic {
+      width: 50%;
+      height: 400px;
+    }
+  
+    .minneriyapic {
+      width: 50%;
+      height: 400px;
+    }
 }
 
+
+/*Table*/
 table {
   overflow: scroll;
   height: 30%;
@@ -626,6 +728,7 @@ table li {
   float: right;
 }
 
+/*Maps in mobile view*/
 @media screen and (max-width: 999px) {
   .yaladiv iframe {
     width: 100%;
@@ -668,6 +771,10 @@ table li {
 }
 
 
+
+
+
+
 /*================== BEACHES STYLE ===================*/
 
 * {box-sizing: border-box}
@@ -687,7 +794,7 @@ clear: both;
 display: table;
 }
 
-/* Media for the economy */
+/* Beaches image animation in mobile view */
 @media screen and (max-width: 560px) {
   .column {
     float: none;
@@ -700,6 +807,7 @@ display: table;
   }
 }
 
+/*Animation*/
 .beach:hover {
   animation-name: ecopictures;
   -webkit-animation-name: ecopictures;
@@ -714,41 +822,35 @@ display: table;
     width: 100%;
     height: auto;
   }
-
-  @media (min-width: 1025px) and (max-width: 1280px)
-  {  
-    .nilavalipic {
-  width: 60%;
-  height: 50%;
-    }
-  }
-
+  
   .arugambaypic {
     width: 100%;
     height: auto;
   }
 
-  @media (min-width: 1025px) and (max-width: 1280px)
-{  
-  .arugambaypic {
-width: 60%;
-height: 50%;
+  .unawatunapic {
+    width: 100%;
+    height: auto;
   }
-}
 
-.unawatunapic {
-  width: 100%;
-  height: auto;
-}
 
-@media (min-width: 1025px) and (max-width: 1280px)
-{  
-.unawatunapic {
-width: 60%;
-height: 50%;
-}
-}
-
+  @media (min-width: 1025px) and (max-width: 1280px)
+  {  
+    .nilavalipic {
+        width: 60%;
+        height: 50%;
+      }
+    
+      .arugambaypic {
+        width: 60%;
+        height: 50%;
+      }
+    
+      .unawatunapic {
+        width: 60%;
+        height: 50%;
+      }
+  }
 
 /*====================== DONATE STYLE =====================*/
 
@@ -866,3 +968,114 @@ height: 50%;
       text-align: center;
     }
 }
+
+
+/*Form Styles*/
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container2{
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.container2 form{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+}
+
+.container2 form .inputBox{
+    margin-top: 20px;
+}
+
+.container2 form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+}
+
+.container2 form .inputBox input,
+.container2 form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+
+.container2 form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+.container2 form .flexbox .inputBox{
+    flex:1 1 150px;
+}
+
+.container2 form .submit-btn{
+    width: 100%;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.container2 form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.container2 .card-container{
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+.container2 .card-container .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, blueviolet, deeppink);
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+}
+
+
+
+.container2 .card-container .front .card-number-box{
+  padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color:#fff;
+}
+
+#cardholder{
+  text-transform: uppercase;
+}
+
+
+
